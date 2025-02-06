@@ -1,0 +1,12 @@
+The current version's restrictions:
+- The exe file does not have a local save (exit and everything is lost, try not to do it in this version)
+- Subtitles do nothing for now (Its going to be a tool thats gonna help me later)
+- Team also does nothing (Another special tool)
+- Cant switch out the picture yet (unless u delete in index html, Ctrl + F insanity and delete the line)
+(should look like this   <img id="logo" src="assets/Insanity.png" style="position: absolute"/> delete this to remove the pic, switch out the aseets/Insanity.png into another png u put in there to change it)
+- Some buttons (aka discard) are absolutely fucking useless and i plan to butcher it
+
+Other notes: 
+- The field to the right of player name is the character and you can either choose from the pool or write the character's full name (aka dont write abel but write avatar belial, its case insensitive so AVATar BeliAl = avatar belial)
+
+- As always, link ur obs to browser source http://localhost:1337 after activating exe (i will include in the app after Sandy update)
