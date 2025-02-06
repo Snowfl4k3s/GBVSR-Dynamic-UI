@@ -1,0 +1,233 @@
+body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Jura";
+  font-weight: 700;
+}
+
+#scoreboard {
+  text-align: center;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+
+#p1score,
+#p2score,
+#p1name,
+#p2name,
+#p1country,
+#p2country,
+#p1team,
+#p2team,
+#description,
+#descriptionbox,
+#subtitle,
+#p1board,
+#p2board,
+#p1char,
+#p2char,
+#p1scorecontainer,
+#p2scorecontainer,
+#p1border,
+#p2border
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+#p1team,
+#p2team {
+  font-size: 32px;
+  text-shadow: 0px 0px 20px black;
+}
+
+#description {
+  left: 725px;
+  height: 30px;
+  width: 470px;
+  text-transform: uppercase;
+  font-size: 20px;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+  background-image: linear-gradient(to right, #3f0102, #00067e);
+}
+#descriptionbox
+{
+  left: 725px;
+  height: 35px;
+  width: 470px;
+  top:1px;
+  clip-path: polygon(96% 92%, 100% 0, 96% 80%, 4% 80%, 0 0, 4% 92%);
+  background-image: linear-gradient(to right, #b91603, #014dd9);
+}
+
+#subtitle {
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 178px;
+  font-size: 20px;
+}
+
+#p1country,
+#p2country {
+  /*
+  font-family: "Noto Color Emoji";
+  font-size: 1.8em;
+  top: 8px;
+  */
+  font-family: "Twemoji Mozilla";
+  font-size: 2.2em;
+  top: 8px;
+}
+
+#p1country {
+  left: 317px;
+}
+
+#p2country {
+  right: 317px;
+}
+
+#p1score,
+#p2score {
+  font-size: 48px;
+  width: 56px;
+  height: 56px;
+}
+#p1scorecontainer,
+#p2scorecontainer
+{
+  width: 56px;
+  height: 56px;
+  background-color: green;
+}
+
+#p1score,
+#p1scorecontainer
+{
+  left: 255px;
+}
+
+#p2score,
+#p2scorecontainer
+{
+  right: 255px;
+}
+
+#p1border
+{
+  left: 253px;
+  width: 500px;
+  height: 56px;
+  top: 2px;
+  background-image: linear-gradient(to right, #014dd9 30%, #00067e, black);
+  clip-path: polygon(1% 0, 1% 100%, 0 100%, 0 0, 91% 0, 97% 81%, 1% 83%, 1% 100%, 100% 100%, 91% 0);
+}
+#p2border
+{
+  right: 253px;
+  width: 500px;
+  height: 56px;
+  top: 2px;
+  background-image: linear-gradient(to right, #b91603 30%, #3f0102, black);
+  clip-path: polygon(1% 0, 1% 100%, 0 100%, 0 0, 91% 0, 97% 81%, 1% 83%, 1% 100%, 100% 100%, 91% 0);
+  transform: scaleX(-1);
+}
+#p1scorecontainer{
+  background-color: #b91603;
+}
+#p2scorecontainer{
+  background-color: #014dd9;
+}
+
+#p1name,
+#p2name {
+  top: 8px;
+  font-size: 32px;
+}
+
+#p1name {
+  left: 360px;
+}
+
+#p2name {
+  right: 360px;
+}
+
+#p1team {
+  top: 182px;
+  left: 153px;
+}
+
+#p2team {
+  top: 182px;
+  right: 153px;
+}
+
+#p1board
+{
+  background-image: linear-gradient(to bottom right, #b91603 30%, #3f0102, black);
+  width: 431px;
+  height: 56px;
+  left: 310px;
+  clip-path: polygon(0 0, 91.5% 0, 100% 100%, 0 100%);
+  border-left: #080808 solid 5px;
+}
+#p2board
+{
+  background-image: linear-gradient(to bottom left, #014dd9 30%, #00067e, black);
+  width: 431px;
+  height: 56px;
+  right: 310px;
+  clip-path: polygon(8.5% 0, 100% 0, 100% 100%, 0 100%);
+  border-right: #080808 solid 5px;
+}
+#p1char
+{
+  width:200px;
+  height: 56px;
+  left: 500px;
+  overflow: hidden;
+}
+#p2char
+{
+  width:200px;
+  height: 56px;
+  right: 500px;
+  overflow: hidden;
+}
+#p1charimg
+{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 55px;
+  opacity: 70%;
+  transform: scaleX(-1); /*flip img*/
+}
+#p2charimg{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom: 55px;
+  opacity: 70%;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  max-height: 150px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
