@@ -10,3 +10,5 @@ Other notes:
 - The field to the right of player name is the character and you can either choose from the pool or write the character's full name (aka dont write abel but write avatar belial, its case insensitive so AVATar BeliAl = avatar belial)
 
 - As always, link ur obs to browser source http://localhost:1337 after activating exe (i will include in the app after Sandy update)
+
+-Unzip the IronTCL file
